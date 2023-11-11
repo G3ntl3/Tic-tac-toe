@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+      <center> <h1>Tic-Tac-Toe (X O)</h1></center> 
+      <div class="inp">
+<input type="text" name="" id="firstPlayerName" placeholder="Player1"><br>
+<input type="text" name="" id="secondPlayerName" placeholder="Player2"> 
+</div><br> <br>
+
+<button id="start" onclick="start()"> Start</button>
+ <input id="names" type="text" disabled>
+<!-- <button onclick="dis()">ertyuiijhgfd</button> -->
+<br>
+<div class="scores">
+<button id="para1" style="color: white; font:900 ;" disabled>
+0
+</button>
+<button id="para2"  style="color: white; font:900 ;" disabled>
+0
+</button>
+</div>
+<div class="row1">
+<button onclick="clickme(event)" class="buttonable" id="btn1" disabled ></button >
+
+<button onclick="clickme(event)"  id="btn2" class="buttonable" disabled ></button>
+<button  onclick="clickme(event)" id="btn3" class="buttonable"  disabled></button> </div>
+<div class="row2">
+<button  onclick="clickme(event)" id="btn4" class="buttonable" disabled ></button>
+<button  onclick="clickme(event)" id="btn5" class="buttonable"  disabled></button>
+<button  onclick="clickme(event)"id="btn6" class="buttonable" disabled ></button></div>
+<div class="row3">
+    <button  onclick="clickme(event)"id="btn7" class="buttonable"  disabled></button>
+<button  onclick="clickme(event)" id="btn8" class="buttonable"  disabled></button>
+<button  onclick="clickme(event)" id="btn9" class="buttonable" disabled ></button><br>
+<!-- <br>
+    <input type="button" id="Reset"  value="reset"   onclick="reset()"> -->
+</div>
+<input type="button" value="Replay" onclick=" replay()" id="replay">
+
+
+
+
+    </div>
+</body>
+</html>
